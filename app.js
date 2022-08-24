@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const port = 3002;
 
-router.get('/two', async (req, res) => {
+app.get('/two', async (req, res) => {
     try {
         message = req.body.message
 
